@@ -9,8 +9,8 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const HeroDetailBlog = () => {
   return (
-    <div className="bg-[#6211E4] relative md:h-screen pt-8 pb-14 px-5 md:py-40 md:px-24 text-white lg:mb-[36rem] space-y-8 md:space-y-20 lg:space-y-0">
-      <div className="block space-y-8">
+    <div className="bg-[#6211E4] relative md:h-screen pt-8 pb-14 px-5 md:py-40 md:px-24 text-white space-y-8 md:space-y-20 lg:space-y-0">
+      <div className="space-y-8">
         <ChipBlog
           color="text-white"
           fontSize="text-lg"
@@ -61,7 +61,7 @@ const HeroDetailBlog = () => {
         alt="detail blog"
         width={1170}
         height={660}
-        className="lg:translate-y-14 w-full rounded-3xl left-0 right-0 mx-auto transy"
+        className="lg:translate-y-14 w-full rounded-3xl mx-auto"
       />
     </div>
   );
