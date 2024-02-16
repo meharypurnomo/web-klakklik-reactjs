@@ -57,7 +57,7 @@ const Popular = () => {
           </div>
         </Link>
 
-        <Link href={"/blog/1"} className="border rounded-2xl">
+        <Link href={"/blog/1"} className=" rounded-2xl">
           <div className="  rounded-2xl">
             <Image
               src={"/blog/popular/blog-grid-1.jpg"}
@@ -103,7 +103,7 @@ const Popular = () => {
           </div>
         </Link>
 
-        <Link href={"/blog/1"} className="border rounded-2xl">
+        <Link href={"/blog/1"} className="rounded-2xl">
           <div className="rounded-2xl">
             <Image
               src={"/blog/popular/blog-grid-1.jpg"}
