@@ -9,7 +9,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const HeroDetailBlog = () => {
   return (
-    <div className="bg-[#6211E4] relative md:h-screen pt-8 pb-14 px-5 md:py-40 md:px-24 text-white space-y-8 md:space-y-20 lg:space-y-0">
+    <div className="bg-[#6211E4] relative md:h-screen lg:h-fit pt-8 pb-14 px-5 md:py-40 md:px-24 text-white space-y-8 md:space-y-20 lg:space-y-0">
       <div className="space-y-8">
         <ChipBlog
           color="text-white"
@@ -56,13 +56,15 @@ const HeroDetailBlog = () => {
         </div>
       </div>
 
-      <Image
-        src={"/detail-blog/hero/blog-details-1.jpg"}
-        alt="detail blog"
-        width={1170}
-        height={660}
-        className="lg:translate-y-14 w-full rounded-3xl mx-auto"
-      />
+      <div className="h-full">
+        <Image
+          src={"/detail-blog/hero/blog-details-1.jpg"}
+          alt="detail blog"
+          width={1170}
+          height={660}
+          className="lg:translate-y-14  w-full rounded-3xl mx-auto"
+        />
+      </div>
     </div>
   );
 };

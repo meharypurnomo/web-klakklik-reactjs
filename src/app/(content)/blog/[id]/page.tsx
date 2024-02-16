@@ -9,7 +9,7 @@ const DetailBlog = () => {
     <main>
       <HeroDetailBlog />
 
-      <div className="lg:grid md:grid-cols-3 gap-20 items-start px-5 md:px-24 mt-14 md:mt-20 lg:mt-[38rem] space-y-14">
+      <div className="lg:grid md:grid-cols-3 gap-20 items-start px-5 md:px-24 mt-14 md:mt-20 space-y-14">
         <ContentDetailBlog />
 
         <PopularSide />
