@@ -11,7 +11,7 @@ const ChipBlog = ({
 }) => {
   return (
     <button
-      className={`border ${borderColor} px-2 md:px-5 py-1 font-medium ${fontSize} rounded-full ${color}`}
+      className={`border ${borderColor} px-2 md:px-3 py-1 font-medium ${fontSize} rounded-full ${color} text-center`}
     >
       {children}
     </button>
