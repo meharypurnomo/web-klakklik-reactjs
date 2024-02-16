@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroDetailProduct = () => {
   return (
-    <div className="bg-[#6211E4] relative lg:h-screen pt-8 pb-14 px-5 md:pt-32 md:pb-16 lg:py-40 md:px-24 text-white lg:mb-[29rem] space-y-20 md:space-y-20 lg:space-y-5">
+    <div className="bg-[#6211E4] relative lg:h-full pt-8 pb-14 px-5 md:pt-32 md:pb-16 lg:py-40 md:px-24 lg:mb-20 text-white space-y-20 md:space-y-20 lg:space-y-5">
       <div className="lg:px-16 space-y-14">
         <div className="space-y-3">
           <h5 className="text-slate-400 text-xl font-semibold">Development</h5>
