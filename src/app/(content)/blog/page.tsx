@@ -12,7 +12,7 @@ export default function Blog() {
 
       <Popular />
 
-      <div className="lg:grid grid-cols-3 gap-14 items-start px-5 md:px-24 mt-20 space-y-10 md:space-y-0">
+      <div className="lg:grid grid-cols-3 gap-14 items-start px-5 md:px-24  mt-5 md:mt-20 space-y-10 md:space-y-0">
         <PopularList />
 
         <PopularSide />

@@ -35,7 +35,7 @@ const ContentProduct = () => {
         ))}
       </div>
 
-      <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-10 space-y-10 md:space-y-0">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 space-y-2 md:space-y-0">
         {itemActive().map((prod) => (
           <Link
             href={`/product/${prod.title}`}
