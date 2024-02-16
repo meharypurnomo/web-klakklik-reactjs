@@ -12,7 +12,7 @@ const Popular = () => {
 
       <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <Link href={"/blog/1"}>
-          <div className="border rounded-2xl">
+          <div className="rounded-2xl">
             <Image
               src={"/blog/popular/blog-grid-1.jpg"}
               width={370}
@@ -21,7 +21,7 @@ const Popular = () => {
               className="rounded-t-2xl w-full"
             />
 
-            <div className="p-6 space-y-5">
+            <div className="border rounded-b-2xl p-6 space-y-5">
               <div className="flex md:flex-col lg:flex-row gap-2 lg:items-center">
                 <ChipBlog color="text-sky-600" fontSize="text-sm md:text-md">
                   CRM SOFTWARE
@@ -58,7 +58,7 @@ const Popular = () => {
         </Link>
 
         <Link href={"/blog/1"} className="border rounded-2xl">
-          <div className="border rounded-2xl">
+          <div className="  rounded-2xl">
             <Image
               src={"/blog/popular/blog-grid-1.jpg"}
               width={370}
@@ -67,7 +67,7 @@ const Popular = () => {
               className="rounded-t-2xl w-full"
             />
 
-            <div className="p-6 space-y-5">
+            <div className="border rounded-b-2xl p-6 space-y-5">
               <div className="flex md:flex-col lg:flex-row gap-2 lg:items-center">
                 <ChipBlog color="text-sky-600" fontSize="text-sm md:text-md">
                   CRM SOFTWARE
@@ -104,7 +104,7 @@ const Popular = () => {
         </Link>
 
         <Link href={"/blog/1"} className="border rounded-2xl">
-          <div className="border rounded-2xl">
+          <div className="rounded-2xl">
             <Image
               src={"/blog/popular/blog-grid-1.jpg"}
               width={370}
@@ -113,7 +113,7 @@ const Popular = () => {
               className="rounded-t-2xl w-full"
             />
 
-            <div className="p-6 space-y-5">
+            <div className="border rounded-b-2xl p-6 space-y-5">
               <div className="flex md:flex-col lg:flex-row gap-2 lg:items-center">
                 <ChipBlog color="text-sky-600" fontSize="text-sm md:text-md">
                   CRM SOFTWARE
